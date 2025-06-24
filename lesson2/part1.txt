@@ -1,0 +1,19 @@
+before starting this part you need to know some basics of array , numpy  library in python.
+
+when you store a image in a variable it is stored in a 3D array where each pixel is represented by 3 values (red , green, blue) 
+and each value is between 0 and 255.
+ So the array is of size (height , width , 3) where height and width are the size of the image and 3 is for the 3 color channels.
+
+ use online resources to understand it better 
+
+ try : 
+
+ print(type(img))      ------> output : <class 'numpy.ndarray'>
+
+"type is a function in python which tells us type of the variable"
+
+
+ print(img.shape)       ------> output : (height , width , 3)
+
+ normally we use " RGB " format images but in python we read it as BGR(bLUE , GREEN , RED) format
+ 
